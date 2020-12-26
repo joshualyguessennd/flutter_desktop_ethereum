@@ -17,14 +17,11 @@ class _HomeState extends State<Home> {
           SizedBox(height: 45),
           Row(
             crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              Container(
-                width: 350,
-                child: Image(
-                  height: 400,
-                  image: AssetImage('assets/image/insight.png'),
-                ),
+              Image(
+                height: 430,
+                image: AssetImage('assets/image/insight.png'),
               ),
               
               ClipRRect(
