@@ -19,10 +19,14 @@ class _HomeState extends State<Home> {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image(
-                image: AssetImage('assets/image/capture2.png'),
+              Container(
+                width: 350,
+                child: Image(
+                  height: 400,
+                  image: AssetImage('assets/image/insight.png'),
+                ),
               ),
-              SizedBox(width: 20,),
+              
               ClipRRect(
                 borderRadius: BorderRadius.circular(5.0),
                 child: Container(
